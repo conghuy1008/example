@@ -4,4 +4,5 @@
     %p= time_ago_in_words(doc.created_at)
     %p= truncate(doc.content, length:200)
     %p= String("User Create: " + doc.user_id.to_s)
+    %p= String("Id Doc: " + doc.id.to_s)
 
