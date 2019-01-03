@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  get 'docs/index'
+  get 'welcome/index'
 
   root 'docs#index'
   resources :docs
