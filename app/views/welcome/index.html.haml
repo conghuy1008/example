@@ -1,1 +1,18 @@
-%h1{:style => "text-align: center"} This is Placeholder!
+#banner
+    .banner_content
+        %h1 File Cabinet
+        %p Your life's work. Organized, always.
+        %button= link_to "Enter", new_user_registration_path
+
+#callouts
+    .callout_inner
+        .wrapper
+            .callout
+                %h2 Organize
+                %p Reinventing your room? Here’s where to begin. Picking cabinets is a process. Here you’ll find the product information, handy tools and quick tips necessary to spark smart thinking and organize your thoughts. With Diamond, you can go from Point A to Point “Be Done” with confidence.
+
+#bottom_cta
+    .wrapper
+        %h2 Go Ahead!
+        %br
+        %button= link_to "Join Now", new_user_registration_path
